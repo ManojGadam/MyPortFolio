@@ -1,0 +1,9 @@
+.headerT{
+    font-weight: bold;
+    font-size: x-large;
+    content: "";
+    width: 40rem;
+    border-bottom: 1px solid;
+    vertical-align: middle; 
+    display: inline-block;
+}
