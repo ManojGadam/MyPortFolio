@@ -10,7 +10,7 @@ function App() {
       <NavBar />  
       <div className='bodyWrapper'>
       <Routes>
-        <Route path='/MyPortFolio' element={<HomeComponent socials={socials} />} />
+        <Route path='/' element={<HomeComponent socials={socials} />} />
         <Route path='/about' element={<AboutComponent />} />
         <Route path='/experience' element={<ExperienceComponent />} />
         <Route path='/projects' element={<ProjectComponent />} />
