@@ -1,11 +1,10 @@
 import { Link, useResolvedPath,useMatch } from "react-router-dom"
-import { Button } from "react-bootstrap"
 
 
 export const NavBar=(props) =>{
     return(
         <nav className="nav">
-            <Link to="/" className="siteHead">GM</Link>
+            <Link to="/MyPortFolio" className="siteHead">GM</Link>
             <ul>
                 <CustomLink to="/about">About</CustomLink>
                 <CustomLink to="/experience">Experience</CustomLink>
